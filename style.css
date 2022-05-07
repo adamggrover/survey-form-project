@@ -9,10 +9,10 @@ header{
 #survey-form{
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 40%;
     background-color: rgb(95, 163, 61,0.8);
-    padding: 2em 1em 2em 1em;
-    border-radius: 0.5em;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 0.5rem;
 }
 
 #checkboxes{
