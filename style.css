@@ -1,6 +1,12 @@
+main{
+    justify-content: center;
+    display: flex;
+}
+
 #survey-form{
     display: flex;
     flex-direction: column;
+    width: 40vw;
 }
 
 #checkboxes{
