@@ -3,6 +3,9 @@ main{
     display: flex;
 }
 
+header{
+    text-align: center;
+}
 #survey-form{
     display: flex;
     flex-direction: column;
