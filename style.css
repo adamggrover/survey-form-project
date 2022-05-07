@@ -1,0 +1,9 @@
+#survey-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#checkboxes{
+    display: flex;
+    flex-direction: column;
+}
