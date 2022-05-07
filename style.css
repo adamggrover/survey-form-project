@@ -10,6 +10,9 @@ header{
     display: flex;
     flex-direction: column;
     width: 40vw;
+    background-color: rgb(95, 163, 61,0.8);
+    padding: 2em 1em 2em 1em;
+    border-radius: 0.5em;
 }
 
 #checkboxes{
