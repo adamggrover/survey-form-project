@@ -30,9 +30,10 @@ header{
 #survey-form{
     display: flex;
     flex-direction: column;
+    gap: 0.4rem;
     width: 40%;
     background-color: rgba(141, 49, 141, 0.724);
-    padding: 2rem;
+    padding: 1.4rem;
     border-radius: 0.5rem;
     font-size: 1.2rem;
 }
@@ -46,4 +47,22 @@ h1{
     font-size: 2rem;
 
 }
+
+#radio{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 0.7rem;
+    
+}
+
+input, select{
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+}
+
+
 
