@@ -34,6 +34,7 @@ header{
     background-color: rgba(141, 49, 141, 0.724);
     padding: 2rem;
     border-radius: 0.5rem;
+    font-size: 1.2rem;
 }
 
 #checkboxes{
@@ -45,3 +46,4 @@ h1{
     font-size: 2rem;
 
 }
+
