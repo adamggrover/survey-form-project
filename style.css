@@ -1,7 +1,8 @@
 body{
-    background-image:url("https://images.unsplash.com/photo-1597079013069-bd1681f7454f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    background-image: url(/img.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw auto;
+    background-size:  cover;
+    background-position: center;
 
 }   
 
@@ -18,7 +19,7 @@ header{
     flex-direction: column;
     width: 40%;
     background-color: rgb(95, 163, 61,0.8);
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 2rem;
     border-radius: 0.5rem;
 }
 
