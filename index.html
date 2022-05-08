@@ -20,8 +20,8 @@
 </head>
 <body>
     <header>
-        <h1 id ="title">Bristol Resident Survey Form</h1>
-        <p id="description">Thanks you for taking the time to fill in this short survey</p>
+        <h1 id ="title">Outdoor Activity Group Survey Form</h1>
+        <p id="description">Thank you for taking the time to fill in this short survey</p>
     </header>
     <main>
         
@@ -38,16 +38,17 @@
             <label id="number-label" for="number">Age</label>
             <input id="number" type="number" min="15" max="120" placeholder="Enter your age">
             
-            <label for="dropdown">Which option best describes your current employment status?</label>
+            <label for="dropdown">How regularly do you currently take part in outdoor activity groups?</label>
             <select name="dropdown" id="dropdown">
-                <option value="Full-time employed">Full-time employed</option>
-                <option value="Part-time employed">Part-time employed</option>
-                <option value="Self employed">Self employed</option>
-                <option value="Unemployed">Unemployed</option>         
+                <option value="Week">Once or twice a week</option>
+                <option value="Fortnight">Once or twice a fortnight</option>
+                <option value="Month">Once or twice a month</option>
+                <option value="Hardly Ever">Hardly ever</option>
+                <option value="Never">Never</option>            
             </select>
 
             <div id="radio">
-                <label for="radio">How likely would you be to recommend our services</label>
+                <label for="radio">How likely would you be to take part in future activities groups?</label>
 
                 <label for="very-likely">
                     <input id="very-likely" type="radio" name="recommend" value="very-likely">Very likely
@@ -69,16 +70,16 @@
 
             <label id="checkboxes" for="checkboxes">What improvements would you like to see? (Check all that apply)
                 <label for="groups">
-                    <input id="groups" name="suggestions" type="checkbox" value="groups">Local sports groups
+                    <input id="groups" name="suggestions" type="checkbox" value="groups">More local sports groups
                 </label>
                 <label for="equipment">
-                    <input id="equipment" name="suggestions" type="checkbox" value="equipment">Outdoor exercise equipment
+                    <input id="equipment" name="suggestions" type="checkbox" value="equipment">More outdoor exercise equipment
                 </label>
                 <label for="cost">
-                    <input id="cost" name="suggestions" type="checkbox" value="cost">Reduction in cost of healthy activities
+                    <input id="cost" name="suggestions" type="checkbox" value="cost">Reduction in cost
                 </label>
                 <label for="cycling">
-                    <input id="cycling" name="suggestions" type="checkbox" value="cycling">Improve provision for cyclists in the city
+                    <input id="cycling" name="suggestions" type="checkbox" value="cycling">More cycling activities
                 </label>
             </label>
 
