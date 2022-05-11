@@ -41,7 +41,7 @@
             <label id="number-label" for="number">Age</label>
             <input id="number" type="number" min="15" max="120" placeholder="Enter your age">
 
-            <label for="dropdown">How regularly do you currently take part in outdoor activity groups?</label>
+            <label for="dropdown" id="dropdown-label">How regularly do you currently take part in outdoor activity groups?</label>
             <select name="dropdown" id="dropdown">
                 <option value="Week">Once or twice a week</option>
                 <option value="Fortnight">Once or twice a fortnight</option>
@@ -51,35 +51,35 @@
             </select>
 
             <div id="radio">
-                <label for="radio">How likely would you be to take part in future activities groups?</label>
+                <label for="radio" id="radio-label">How likely would you be to take part in future activities groups?</label>
 
                 <label class=container for="very-likely">
-                    <input id="very-likely" type="radio" name="recommend" checked="checked" value="very-likely">Very
+                    <input id="very-likely" type="radio" name="recommend"  checked="checked" value="very-likely">Very
                     likely
                     <span class="checkmark"></span>
                 </label>
                 <label class=container for="likely">
-                    <input id="likely" type="radio" name="recommend" checked="checked" value="likely">Likely
+                    <input id="likely" type="radio" name="recommend"  value="likely">Likely
                     <span class="checkmark"></span>
                 </label>
                 <label class=container for="neither">
-                    <input id="neither" type="radio" name="recommend" checked="checked" value="neither">Neither likely
+                    <input id="neither" type="radio" name="recommend"  value="neither">Neither likely
                     or unlikely
                     <span class="checkmark"></span>
                 </label>
                 <label class=container for="unlikely">
-                    <input id="unlikely" type="radio" name="recommend" checked="checked" value="unlikely">Unlikely
+                    <input id="unlikely" type="radio" name="recommend"  value="unlikely">Unlikely
                     <span class="checkmark"></span>
                 </label>
                 <label class=container for="very-unlikely">
-                    <input id="very-unlikely" type="radio" name="recommend" checked="checked" value="very-unlikely">Very
+                    <input id="very-unlikely" type="radio" name="recommend"  value="very-unlikely">Very
                     unlikely
                     <span class="checkmark"></span>
                 </label>
 
             </div>
 
-            <label id="checkboxes" for="checkboxes">What improvements would you like to see? (Check all that apply)
+            <label id="checkbox-label" for="checkboxes">What improvements would you like to see? (Check all that apply)
                 <label for="groups" class="box">
                     <input id="groups"  name="suggestions" type="checkbox"
                         value="groups">More local sports groups
@@ -102,7 +102,7 @@
                 </label>
             </label>
 
-            <label for="comments">Any comments or suggestions?</label>
+            <label for="comments" id="comment-label">Any comments or suggestions?</label>
             <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
 
             <button id="submit" type="submit">Submit</button>
